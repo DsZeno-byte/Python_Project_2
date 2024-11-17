@@ -28,31 +28,11 @@ This is a simple personal diary application built using Python and Tkinter. The 
 
     **Usage**
 
-    **Running the Application**
-        1. Open a terminal or command prompt. 
+    **Running the Application** 
+        1. Open a terminal or command prompt.  
         2. Navigate to the directory where the project is saved. 
-        3. Run the Python script:
-            ```bash
-            python diary_app.py
-4. The main application window will appear, allowing you to:
-     • Write a diary entry.
-     • Save your entry by clicking the "Save Entry" button.
-     • View previous entries by clicking the "Load Previous Entries" button. 
-     • Exit the application by clicking the "Exit" button.
-**Buttons and Their Functions**
-     • Save Entry: Saves the current diary entry to the diary_entries.txt file with a timestamp. If the text area is empty, a warning   will appear.
-      • Load Previous Entries: Opens a new window showing all saved diary entries. 
-      • Exit: Closes the application.
+        3. Run the Python script: 
 
-**Code Explanation** 
-[save_entry()]
-    This function is called when the user clicks the "Save Entry" button. It:
-     • Retrieves the text from the Text widget.
-     • Checks if the text is empty and shows a warning if it is. 
-     • Adds the current date and time as a timestamp and saves the entry to a file (diary_entries.txt).
-[load_entries()]
-    This function is triggered when the user clicks the "Load Previous Entries" button. It:
-    • Opens the [diary_entries.txt] file if it exists.
-    • Displays the diary entries in a new window in a read-only text box.
-[exit_app()]
-    This function is called when the user clicks the "Exit" button. It quits the Tkinter main loop and closes the application. 
+            ```bash 
+            python diary_app.py 
+
