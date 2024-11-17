@@ -34,5 +34,5 @@ This is a simple personal diary application built using Python and Tkinter. The 
         3. Run the Python script: 
 
             ```bash 
-            python diary_app.py 
+            python diary.py 
 
