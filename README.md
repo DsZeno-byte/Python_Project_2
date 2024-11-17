@@ -35,4 +35,18 @@ This is a simple personal diary application built using Python and Tkinter. The 
 
             ```bash 
             python diary.py 
+# Usage
+- 1. **Writing an Entry:** When the application starts, you will see a text area where you can type your diary entry.. 
+- 2. **Saving an Entry:** 
+      - After writing your entry, click the Save Entry button to save your entry. 
+      - A timestamp will be added, and the entry will be saved to the diary_entries.txt file. 
+- 3. **Viewing Previous Entries:** Click the Load Previous Entries button to open a new window showing all previous diary entries. 
+- 4. **Exiting the Application:** Click the Exit button to close the application.  
+# Code Explanation 
+- **save_entry()**: This function retrieves the text from the text area, adds a timestamp, and saves it to diary_entries.txt. If the text area is empty, it shows a warning message.
 
+- **load_entries()**: This function opens diary_entries.txt and displays the saved entries in a new window. If the file does not exist, it shows an info message.
+
+- **exit_app()**: This function closes the main application window.
+
+- **Tkinter Widgets**: The application uses Tkinter widgets like Tk, Label, Text, Button, and Toplevel for the user interface.
