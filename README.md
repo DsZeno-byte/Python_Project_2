@@ -2,6 +2,8 @@
 
 # Personal Diary Application
 
+![alt text](image.png)
+
 This is a simple personal diary application built using Python and Tkinter. The application allows users to write, save, and view their diary entries. The entries are saved in a text file along with a timestamp to track when each entry was created.
 
 ## Features
